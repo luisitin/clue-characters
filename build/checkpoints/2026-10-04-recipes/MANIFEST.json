@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "snapshot_utc": "2026-10-04T18:50:00Z",
+  "characters": [
+    "green",
+    "mustard",
+    "peacock",
+    "plum",
+    "scarlett",
+    "white"
+  ],
+  "status": "Unfinished WIP recipe preservation; existing published GLBs unchanged.",
+  "archives": [
+    {
+      "path": "character-recipes-01.zip",
+      "bytes": 17867654,
+      "sha256": "1c998f4e825fa697624394bde9d6e31ed30b31616deeaa7f1b1a7ddfe60025fe",
+      "git_blob_sha1": "2e3bf2a6fe45bcecd908169b690d959e36899220",
+      "files": 5,
+      "uncompressed_bytes": 17999956
+    },
+    {
+      "path": "character-recipes-02.zip",
+      "bytes": 17209637,
+      "sha256": "acd13ec7a6b1876da56f95894fd4b855abf28afe706916ffe230bbc8133b8b74",
+      "git_blob_sha1": "677af6ab668d0e4e3557abf176acd8bb4e9612d8",
+      "files": 8,
+      "uncompressed_bytes": 17999988
+    },
+    {
+      "path": "character-recipes-03.zip",
+      "bytes": 15146053,
+      "sha256": "4a77993f51f487756f4099751b254930c8c50274a37f336a15d0e31420927748",
+      "git_blob_sha1": "b5647590d5830c9671fee08e0d56ed73f82ef77a",
+      "files": 316,
+      "uncompressed_bytes": 17880056
+    }
+  ],
+  "extraction": "Extract all numbered ZIPs into one empty directory, preserving paths. FILES.json verifies328 captured files and does not hash itself.",
+  "checks_performed": [
+    "Source bytes checked against curated per-character manifests",
+    "Absolute machine paths relocated in copied metadata and one optional local lock wrapper",
+    "Public-content and credential-marker scan of copied text; NPZ arrays checked without pickle",
+    "All captured Python files parsed for syntax",
+    "Every ZIP member and archive integrity checked"
+  ],
+  "limits": [
+    "No new full clean-room six-character procedural rebuild was performed for this archival update.",
+    "Existing CI restores held current GLBs; it is not a recipe-chain or appearance test.",
+    "Plum prior clean replay: seven of eight GLBs exact; hand has one tangent scalar difference of0.0001000166.",
+    "Captured Peacock144 paint script is rejected because of an extra far-nostril mark."
+  ],
+  "licensing": "Official MakeHuman asset data is shared once with pinned provenance and its scoped licenses; no blanket license is granted for custom models, artwork or generated inputs."
+}

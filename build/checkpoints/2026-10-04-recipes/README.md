@@ -1,0 +1,5 @@
+# Six-character recipe checkpoint — 2026-10-04
+
+Download every numbered ZIP in this directory and extract all of them into the same empty directory. The archives contain complementary parts, not duplicate versions. Run `python3 verify_recipe_files.py`, then follow the extracted README and per-character recipes. `python3 prepare_original_inputs.py /path/to/clue-characters` binds the already-public original six models from this repository's desktop backup.
+
+The archive manifest and extracted `FILES.json` contain SHA-256 checksums. These archives preserve modeling code, shared scoped-license donor inputs, authored geometric arrays and paint/calibration images. No current model snapshot is replaced. Archive verification does not certify finished appearance or prove every recipe can be rebuilt in a fresh environment. Plum has the separately documented seven-of-eight exact replay result and one tangent-scalar caveat; the other chains have narrower verification. Peacock144 is an explicitly rejected paint experiment. See the extracted README for details.
