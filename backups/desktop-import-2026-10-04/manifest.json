@@ -1,0 +1,44 @@
+{
+  "imported": "2026-10-04",
+  "source": "Private game repository, commit cd4c20dcfbf0e59cc64e916746048ed5b49fb627 (the final retouched set)",
+  "version": "Newest full-resolution version of each character: 4096 px base color, 2048 px ORM, 84k to 135k triangles. Later copies (the in-game 1024 px cut and the film tiers) are smaller cuts of this same set, so they are not included.",
+  "status": "Work-in-progress recovery files, not final-approved.",
+  "files": [
+    {
+      "path": "sources/prelod-cd4c20d/sus-green.glb",
+      "original": "games/clue/content/editions/classic-us/art/hd/3d/sus-green.glb",
+      "bytes": 3636000,
+      "sha256": "d210866f967a21375b8d72da7b730b395d4505ac0f31271ed4357f2fcb47eaad"
+    },
+    {
+      "path": "sources/prelod-cd4c20d/sus-mustard.glb",
+      "original": "games/clue/content/editions/classic-us/art/hd/3d/sus-mustard.glb",
+      "bytes": 4486824,
+      "sha256": "544e9012a366947203976b9f6182e1e62a412fac15eafcdd07dff0fa5768b486"
+    },
+    {
+      "path": "sources/prelod-cd4c20d/sus-peacock.glb",
+      "original": "games/clue/content/editions/classic-us/art/hd/3d/sus-peacock.glb",
+      "bytes": 5320892,
+      "sha256": "22faf1e82334f5b5d19775a080448c8b2cc8edbdc6f4858fdae5e7c47961f39c"
+    },
+    {
+      "path": "sources/prelod-cd4c20d/sus-plum.glb",
+      "original": "games/clue/content/editions/classic-us/art/hd/3d/sus-plum.glb",
+      "bytes": 2969844,
+      "sha256": "8a2d4b9c0d4bbd9d03a0b44731d74c9a436e59a46e3613bac7d4797e34ce77d1"
+    },
+    {
+      "path": "sources/prelod-cd4c20d/sus-scarlett.glb",
+      "original": "games/clue/content/editions/classic-us/art/hd/3d/sus-scarlett.glb",
+      "bytes": 2930060,
+      "sha256": "d426ec877cfa02ecabcd291802320d8ec499154f3f802b2c5302f65165b30cf3"
+    },
+    {
+      "path": "sources/prelod-cd4c20d/sus-white.glb",
+      "original": "games/clue/content/editions/classic-us/art/hd/3d/sus-white.glb",
+      "bytes": 4441084,
+      "sha256": "1ef0c6897d809c926b1e568398fa55211134e80e6e7bfe357d4f4062c53ef9eb"
+    }
+  ]
+}
