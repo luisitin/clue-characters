@@ -1,0 +1,6 @@
+{
+  "generator": "OpenAI image generation",
+  "date": "2026-10-04",
+  "used_in_current_model": true,
+  "generation_record": "Built-in image_gen; generated 2026-10-04 13:50UTC. Production input only, not a character review.\nUse case: stylized-concept. Asset type: production PBR base-color texture source for a high-quality painted 3D Colonel Mustard character. Generate one seamless square macro skin albedo swatch, edge-to-edge skin only. Mature fair-skinned male hand skin, warm peach-beige, restrained fine pores, subtle warm/cool mottling, a few tiny soft freckles, refined hand-painted realism matching a polished illustrated board-game character. Uniform diffuse color capture with NO directional lighting, NO cast shadows, NO specular highlights, NO ambient-occlusion creases. This is neutral micro-surface source material, not a picture of a hand. No fingers, nails, hair, wrinkles that imply anatomy, joints, creases, objects, text, borders, or background. Very low contrast, coherent continuous color, fine high-resolution detail; seamless opposite edges. The artwork's aged anatomy and knuckle folds will be painted separately in model space. Opaque square raster.\n"
+}

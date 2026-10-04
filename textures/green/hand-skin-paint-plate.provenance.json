@@ -1,0 +1,8 @@
+{
+  "generator": "OpenAI image generation",
+  "date": "2026-10-04",
+  "purpose": "Multi-view hand skin painting input",
+  "status": "Input used during refinement; not a final rendered character",
+  "sha256": "17d663effe14adb8062a943a369723018a8b03859036cc9a0e515fa22b299478",
+  "prompt": "Use case: precise-object-edit. Asset type: multi-view hand albedo painting plate for a stylized 3D character. Image 1 is the exact edit target: a 3-column by 2-row sheet of the SAME left hand in six measured views. Image 2 is a COLOR AND ART STYLE reference only: Green, a young adult man in an emerald jacket. Paint the hand surface in image 1 with refined, warm peach skin matching the reference, restrained palm creases, small anatomically placed joint folds, subtle knuckle color variation, pale warm natural nail plates and soft cuticle edges. Use a polished stylized game-character finish, fine detail without gritty pores or deep wrinkles. Keep illumination neutral and diffuse so this can be projected into a base-color texture; avoid strong specular highlights or new shadows. Preserve EXACTLY every silhouette, finger count, finger curl, thumb angle, nail position, wrist cut, camera, size, position and the six-cell layout from image 1. The upper-left view is the visible palm with curled nail tips; do not redraw the pose. Keep the gray background unchanged. Change only surface color/detail. No text, labels, objects, jewelry, veins, scars, dirt, rings, sleeves, added geometry or extra fingers. Render the full sheet at its original 3:2 aspect ratio and highest useful detail."
+}

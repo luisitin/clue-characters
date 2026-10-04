@@ -1,0 +1,27 @@
+name: Restore and validate character snapshot
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test package helpers
+        run: python3 build/test_package.py
+      - name: Restore exact GLBs
+        run: python3 build/restore.py
+      - name: Verify checksums and GLB structure
+        run: python3 build/validate.py
+      - name: Upload all six restored models
+        uses: actions/upload-artifact@v4
+        with:
+          name: six-character-wip-glbs
+          path: characters/*/current.glb
+          if-no-files-found: error
+          retention-days: 7

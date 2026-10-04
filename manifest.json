@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-04",
+  "status": "unfinished work in progress",
+  "models": [
+    {
+      "name": "green",
+      "path": "characters/green/current.glb",
+      "bytes": 19248416,
+      "sha256": "9f87b171c87866e95a1d26c31cb262e34d35f0ec4b16f756c6a546c9167c83ff",
+      "storage": "gzip-parts",
+      "parts": [
+        "characters/green/current.glb.gz.part01",
+        "characters/green/current.glb.gz.part02"
+      ],
+      "gzip_bytes": 13549357,
+      "gzip_sha256": "e433d18e1e8f9e203069a1fb63fc223eba6b8395d2789b53b60d2435fce0771d",
+      "triangles": 167061,
+      "snapshot": "Sleeve38 assembly",
+      "approved_final": false
+    },
+    {
+      "name": "mustard",
+      "path": "characters/mustard/current.glb",
+      "bytes": 28873868,
+      "sha256": "9cbe8a612167168444aaf2b0ae448f620edeb136b53e949b8ea000e6ce411ec6",
+      "storage": "gzip-parts",
+      "parts": [
+        "characters/mustard/current.glb.gz.part01",
+        "characters/mustard/current.glb.gz.part02",
+        "characters/mustard/current.glb.gz.part03"
+      ],
+      "gzip_bytes": 22126687,
+      "gzip_sha256": "f2f84fbc5bf8781db3f04cd695c2ec6d285d527de0dc6422ec7fce0709d95641",
+      "triangles": 184355,
+      "snapshot": "Pointing context83",
+      "approved_final": false
+    },
+    {
+      "name": "peacock",
+      "path": "characters/peacock/current.glb",
+      "bytes": 21074592,
+      "sha256": "88cab5848beec49fa03a7548761650a9f08966650981c615f14d1d902dc30234",
+      "storage": "gzip-parts",
+      "parts": [
+        "characters/peacock/current.glb.gz.part01",
+        "characters/peacock/current.glb.gz.part02",
+        "characters/peacock/current.glb.gz.part03"
+      ],
+      "gzip_bytes": 17285456,
+      "gzip_sha256": "8459bb6f49b08b596e5f5ea4e4ecef86a4b9113161f7600465085f859f0ceae8",
+      "triangles": 187937,
+      "snapshot": "Face/eye/chin87",
+      "approved_final": false
+    },
+    {
+      "name": "plum",
+      "path": "characters/plum/current.glb",
+      "bytes": 3980636,
+      "sha256": "311081e76dbe5a20e1827e9eec490c34f845e35449a7f93312367e9ec5474217",
+      "storage": "direct",
+      "parts": [],
+      "triangles": 84219,
+      "snapshot": "Raw cleanup003",
+      "approved_final": false
+    },
+    {
+      "name": "scarlett",
+      "path": "characters/scarlett/current.glb",
+      "bytes": 14472244,
+      "sha256": "5332a0563071583efa995ab62d3dabeb1cdbcb5c69803cfa3e264f55edfb308d",
+      "storage": "gzip-parts",
+      "parts": [
+        "characters/scarlett/current.glb.gz.part01",
+        "characters/scarlett/current.glb.gz.part02"
+      ],
+      "gzip_bytes": 10083846,
+      "gzip_sha256": "d6984928136b264af4cf471e6c837e6c57a879cd85282c8781762ad0ae752eaa",
+      "triangles": 153745,
+      "snapshot": "Lip-corner softness06",
+      "approved_final": false
+    },
+    {
+      "name": "white",
+      "path": "characters/white/current.glb",
+      "bytes": 15425260,
+      "sha256": "2b6856883a137a5021dce3e39d9bd994664cb5d6cc942d6b256391295b7793af",
+      "storage": "gzip-parts",
+      "parts": [
+        "characters/white/current.glb.gz.part01",
+        "characters/white/current.glb.gz.part02"
+      ],
+      "gzip_bytes": 10320709,
+      "gzip_sha256": "4da425aaf67a6440875ea0b19ffc46693a675b6406f8d4060e8b7dd665d5b1ed",
+      "triangles": 196208,
+      "snapshot": "Refined face17",
+      "approved_final": false
+    }
+  ],
+  "files": [
+    {
+      "path": "characters/green/current.glb.gz.part01",
+      "bytes": 8388608,
+      "sha256": "01e80a62db9c3bd747d02a22bd7d5a37cd82d7bfd959168c88dc1d7ba0672694",
+      "git_blob_sha1": "cb10065a6054f275b75689c713e44ee407bcfed6"
+    },
+    {
+      "path": "characters/green/current.glb.gz.part02",
+      "bytes": 5160749,
+      "sha256": "963ea8972111096e4de6499704894a66ebd4156ff301aa5614d0bc864ed1e683",
+      "git_blob_sha1": "f9bd3277054db10ad591e14b569fb425826dc321"
+    },
+    {
+      "path": "characters/mustard/current.glb.gz.part01",
+      "bytes": 8388608,
+      "sha256": "7f461964a81c25691bb2b177f6cebff9867e27c4e4fa803e084e6628273a5a64",
+      "git_blob_sha1": "c2d90d0eab7a3c13cc2a13c68138aa6bb7ed61bf"
+    },
+    {
+      "path": "characters/mustard/current.glb.gz.part02",
+      "bytes": 8388608,
+      "sha256": "65f319aec25f25a22b055181fdbc9170252623e657e6cc20b417d58f40b1247a",
+      "git_blob_sha1": "55624c23e6b235ef88a485646b841ee5a5da655d"
+    },
+    {
+      "path": "characters/mustard/current.glb.gz.part03",
+      "bytes": 5349471,
+      "sha256": "a88aba1a91cbb2e47881ff3c5449bc6a33be59dcc62110db23239c20520242da",
+      "git_blob_sha1": "432daea6a9a2b04097174ca13fe39ac824b7db2b"
+    },
+    {
+      "path": "characters/peacock/current.glb.gz.part01",
+      "bytes": 8388608,
+      "sha256": "077475d3a91663135ad1b1602303fb4c7ae7b14d4da875efd1260981aa040935",
+      "git_blob_sha1": "e8b10311d4e4eb88a6532e2f170d8b0f71e8cd22"
+    },
+    {
+      "path": "characters/peacock/current.glb.gz.part02",
+      "bytes": 8388608,
+      "sha256": "cd4c27662fe6b6ecd4d3abf30d2cef582ffdfff36959960506925bbbfd10ad25",
+      "git_blob_sha1": "5c9642b02e9048392c719f8e755e94a6c9f71c1a"
+    },
+    {
+      "path": "characters/peacock/current.glb.gz.part03",
+      "bytes": 508240,
+      "sha256": "c60c3edde7997434bc92803c3b8a4c014be20a726311c2286693eeaad01943f8",
+      "git_blob_sha1": "2b74ce6da9f44f67bd0f2c656c513ba553bf5fab"
+    },
+    {
+      "path": "characters/plum/current.glb",
+      "bytes": 3980636,
+      "sha256": "311081e76dbe5a20e1827e9eec490c34f845e35449a7f93312367e9ec5474217",
+      "git_blob_sha1": "4e800c45869218d584bda9cabe51a10a7642f842"
+    },
+    {
+      "path": "characters/scarlett/current.glb.gz.part01",
+      "bytes": 8388608,
+      "sha256": "124bdabe2fd6387002300d2390b38fb4d32b64ac584dea02b54e7190dad17a97",
+      "git_blob_sha1": "217aefd34fe4c51bdceec1edbd31a136c4a55a93"
+    },
+    {
+      "path": "characters/scarlett/current.glb.gz.part02",
+      "bytes": 1695238,
+      "sha256": "608705c841fa5a9d5cbca8a70234f418d95aa676ab0c2e08e22340ff60a0c882",
+      "git_blob_sha1": "06b78ad77588c56acf58c4561681a677093248b6"
+    },
+    {
+      "path": "characters/white/current.glb.gz.part01",
+      "bytes": 8388608,
+      "sha256": "1485684a611e3f369ae60e9ae1309cb993515ae5a238084bf19714fda245d255",
+      "git_blob_sha1": "e4188e2e994a1f984a1d3ec6edbf77e7ce387fb0"
+    },
+    {
+      "path": "characters/white/current.glb.gz.part02",
+      "bytes": 1932101,
+      "sha256": "40b6f0e43591b8028fb6d998606bebdfd33e3d935627b3016786f015fce69f3c",
+      "git_blob_sha1": "38c67e12d0b3dd6e95b5a11de72ebc14b545a08a"
+    },
+    {
+      "path": "textures/green/hand-skin-paint-plate.png",
+      "bytes": 1303703,
+      "sha256": "17d663effe14adb8062a943a369723018a8b03859036cc9a0e515fa22b299478",
+      "git_blob_sha1": "d4f836a3e1208dc78cf48673092d1523c3539f2d"
+    },
+    {
+      "path": "textures/mustard/skin-albedo-source.png",
+      "bytes": 2491083,
+      "sha256": "ccc44b1c43cf13567547fc1f22b0a821820cbdb99242dd99055c68a7451439f0",
+      "git_blob_sha1": "9d0567848d4745dfbd8bf01578f1dd3d83c20623"
+    },
+    {
+      "path": "textures/mustard/twill-albedo-source.png",
+      "bytes": 3224185,
+      "sha256": "2e7feb07ee3538982c8dd89408ccc079a502f4a42def342271bf94bf9477c3f5",
+      "git_blob_sha1": "72881bb01c4b4fd7bdddcbaf17c2ededbbbba96d"
+    },
+    {
+      "path": "textures/peacock/face-paint-plate.png",
+      "bytes": 1517142,
+      "sha256": "e89681e0a0f2e212f7945b888f673ddede37c4ac9c5bbc4b30c1dbdd5d4b5cb0",
+      "git_blob_sha1": "11f327d90965eccd6a1dea8b59bea39dbe775f05"
+    },
+    {
+      "path": ".github/workflows/validate-characters.yml",
+      "bytes": 740,
+      "sha256": "5c84dabd876fdc8187fa8e2d6d122c985295873961189f8eb0961947f04cc6e7",
+      "git_blob_sha1": "d023a657d1f7ecb59258c57fe2875ee0f3a6342e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 87,
+      "sha256": "99330cb9da6fa5087115b8091ae1f1398c99b512a457cb0d602e23efa0a77197",
+      "git_blob_sha1": "95fbd3e2cfb499f3130ee0a313ea60517f21605d"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 2841,
+      "sha256": "afdb48423acf0596c277eb6d559299e782c5e863d90ea944b27c635be23f9f45",
+      "git_blob_sha1": "7e1b977bd3864513db2277ab678fade6659b5480"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4166,
+      "sha256": "904be2212ecfd97315eac3988b8e044fe4c792246d686facc6ecac05a1e15f21",
+      "git_blob_sha1": "adb93e890eb485f7b01378eaa30b1c909b7cd78a"
+    },
+    {
+      "path": "build/extract_textures.py",
+      "bytes": 1476,
+      "sha256": "72150c53ee909239aced7032aaf43140d7826407aa9a9664587ec566fa236ce5",
+      "git_blob_sha1": "72391ea6b6bfba7b935027068aba6c9654b73577"
+    },
+    {
+      "path": "build/package_io.py",
+      "bytes": 2989,
+      "sha256": "4330e9d60cf63fff11be74011af300fe54bad2647e859e593f23ccefd59d058c",
+      "git_blob_sha1": "9eab27c1ed40050ebe5892acb656fc47dc55c7cb"
+    },
+    {
+      "path": "build/restore.py",
+      "bytes": 1830,
+      "sha256": "50f6d4c6ec08f755cee217997072f3311324fd43545ad3e69c4b02f5be5de225",
+      "git_blob_sha1": "f24193f17ce00adc098c69f9507b051fec0bd906"
+    },
+    {
+      "path": "build/test_package.py",
+      "bytes": 878,
+      "sha256": "1d26a9b45843f774b55eccba7b8ce38bbf0832425a64b23ffc684d18d21e6b0b",
+      "git_blob_sha1": "97ead0ccd1df2cccf72d35c70a02f6e1f896767f"
+    },
+    {
+      "path": "build/validate.py",
+      "bytes": 1311,
+      "sha256": "e834a672f0fc2bd27727df0a660724006d3141a565256f2a64e32fefa36e902e",
+      "git_blob_sha1": "178b2958bd82cdea7e758ba785f1faff65c13781"
+    },
+    {
+      "path": "licenses/MakeHuman-ASSETS-CC0.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "git_blob_sha1": "f3ede1fc3318f8d794e2cb51924186c62f02f71a"
+    },
+    {
+      "path": "textures/green/hand-skin-paint-plate.provenance.json",
+      "bytes": 1583,
+      "sha256": "63d84d3c0579323bfc82c98a3cb7ca612d43bdbceb0a6cef84c072748d5f1b89",
+      "git_blob_sha1": "591377d0b617061f45418847ae0ca69e9864f95e"
+    },
+    {
+      "path": "textures/mustard/skin-albedo-source.provenance.json",
+      "bytes": 1182,
+      "sha256": "01d31df726573a3ca33387d72a655b8f8c933b3cfc5dc94981deced6d290772a",
+      "git_blob_sha1": "b6be2373cf4edf662a4eeed3f7095974f13f6a9b"
+    },
+    {
+      "path": "textures/mustard/twill-albedo-source.provenance.json",
+      "bytes": 1502,
+      "sha256": "fbab6d58c061f8821638eaa1404e139b67d65563e6c0827b85ed327343c94617",
+      "git_blob_sha1": "b71472a40d03eea2a1dc57da03a2b34fa4c1669e"
+    },
+    {
+      "path": "textures/peacock/face-paint-plate.provenance.json",
+      "bytes": 1855,
+      "sha256": "93d4ec533dcd74d02dd2d696b05ac33d9a577c536eba3db226abc840c267484a",
+      "git_blob_sha1": "efa04829a9d46eb90fcf68eb925a477e8b0e8f53"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+build-output/
+characters/*/current.glb
+!characters/plum/current.glb
