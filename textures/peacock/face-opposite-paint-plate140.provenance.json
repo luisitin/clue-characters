@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "identity-preserve diffuse paint plate",
+  "prompt": "Use case: identity-preserve. Asset type: camera-registered diffuse color texture painting for an existing animated 3D character. Image 1 is the EXACT EDIT TARGET, an 800x800 orthographic unlit face projection at an opposite three-quarter angle. Image 2 is a clean diffuse face paint reference of the SAME character from another angle. Image 3 is her original full-body animated artwork, identity and style reference only. Produce one square image matching Image 1's framing, pixel positions, pose, tilt, facial proportions, silhouette, green side-glancing iris positions, eyelid apertures, smile line, narrow jaw and long neck precisely. Repair the severe gray/khaki triangular corruption across the viewer-right temple and cheek beneath the brown fringe, the blocky cheek-to-mouth color steps and the gray chin edge, creating continuous warm peach skin matching Image 2. Restore the brown fringe edge in that damaged area with coherent fine hair strands, preserving its exact contour rather than changing the hairstyle. Keep already healthy skin, both eyes, brows, lip positions, ear locations, blue hat, feather, collar, pearls, and neutral gray background registered and unchanged as much as possible. Image 2 supplies the same warm skin palette, subtle pore grain and soft stylized animated painting; do not transfer Image 2's camera angle or redesign the character. This is a diffuse albedo paint plate, not a beauty render: no added directional lighting, specular highlights, cast shadows, depth of field or dramatic contrast. No blur, no thick makeup, no beauty retouch that changes features. No text or borders. The damaged viewer-right cheek should be healthy continuous skin; no remaining gray polygon fragments or painted geometric facets.",
+  "input_images": [
+    {
+      "path": "candidates/peacock/restart_v1/renders/face_eyes132_albedo138/face_albedo_045_+00.png",
+      "sha256": "7d8d68b797347f0e8d650536765d843e846f2565fbb4d40c3276be1ab0190020"
+    },
+    {
+      "path": "textures/peacock/face-paint-plate.png",
+      "sha256": "e89681e0a0f2e212f7945b888f673ddede37c4ac9c5bbc4b30c1dbdd5d4b5cb0"
+    },
+    {
+      "path": "references/peacock.webp",
+      "sha256": "f9ecda6a82d30e1bd3e2972340208df819f1df64c7cfa29e931691ac5f54fd28"
+    }
+  ],
+  "output_path": "textures/peacock/face-opposite-paint-plate140.png",
+  "output_sha256": "bad4b039331d4f464a5722cbfb73ad51f1537b387a0c457a8ca207d4d164a01b",
+  "status": "Unregistered raster input. Image-space drift exists; no geometry or appearance clearance from this image. Bounded registered actual-geometry bake still pending.",
+  "scope": "Unique WIP repaint input preserved for reproducibility. Input source-relative paths name the original recipe workspace; this does not assert that every original input is available in the main repository layout."
+}
