@@ -1,0 +1,43 @@
+{
+  "scope": "Five optional upstream generators for prepared White domain, depth, ellipsoid-fit and iris-measurement inputs. This extends the captured Scarlett/White recipe bundle without replacing any held model.",
+  "files": [
+    {
+      "bytes": 4016,
+      "sha256": "694ca967046fd091fc3d06eecb074fb4c815801145ea19f47f870cba0eef34b6",
+      "path": "recipes/scarlett-white/scripts/prepare_white_eye_domains02.py"
+    },
+    {
+      "bytes": 5281,
+      "sha256": "1c1f4bdb45a72245f197625fc3b4325d030a32aecf80c9a819155458869f57fe",
+      "path": "recipes/scarlett-white/scripts/resolve_white_eye_boundary05.py"
+    },
+    {
+      "bytes": 5728,
+      "sha256": "ecb13892fdab18e49c5601e44e60c2c5997902f368ea9191c0c342cf2fd58f3d",
+      "path": "recipes/scarlett-white/scripts/measure_white_eye_depth_fields.py"
+    },
+    {
+      "bytes": 2164,
+      "sha256": "21264fa0c078d5b9aff1b27fe27a2683a447922977fd9c698496bd48cd1b0250",
+      "path": "recipes/scarlett-white/scripts/diagnose_white_globe_fit07.py"
+    },
+    {
+      "bytes": 3831,
+      "sha256": "d64f3be0b9b64d33e7aef50b2ea89dc83d526ca9ae53f2b969198d6cf87892d9",
+      "path": "recipes/scarlett-white/scripts/measure_white_iris_paint05.py"
+    }
+  ],
+  "insert_after_white_exact_duplicates_before_triangulate08": [
+    "prepare_white_eye_domains02.py",
+    "resolve_white_eye_boundary05.py",
+    "measure_white_eye_depth_fields.py",
+    "diagnose_white_globe_fit07.py"
+  ],
+  "insert_after_triangulate08_before_eye_paint": [
+    "measure_white_iris_paint05.py"
+  ],
+  "verification_scope": "These generators ran in the original restored-source lane. Clean-directory end-to-end replay remains unverified. The main manifest preserves their prepared output inputs as well.",
+  "previous_checkpoint": "build/checkpoints/2026-10-04-recipes",
+  "static_dependency_review": "The five scripts account for generation of White domain05, fit07 and iris-measurement inputs when combined with the previous checkpoint exact-duplicate01, triangulate08/fair11 stages and preserved source-color probe PNG. They do not regenerate authored lip traces, the probe render itself or recorded V4 audit certificates. Those remain explicit captured inputs from the previous checkpoint.",
+  "dependency_setup": "Use the previously documented pinned Python dependencies. The optional shared_tools/triangle_lib search path may be absent when the official Triangle package is installed normally; no vendored software is added."
+}

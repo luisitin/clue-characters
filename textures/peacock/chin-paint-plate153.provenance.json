@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. This is a localized repair of a camera-registered diffuse color texture plate, not a new portrait. Image 1 is the exact edit target. Keep its entire 800-by-800 composition, raised-chin low camera angle, character identity, face shape, eye and iris positions, nose, lips, jaw silhouette, neck, hat, hair, earrings, clothing and gray background pixel-aligned and unchanged. Change ONLY the irregular blue-gray corrupted patch under the viewer-right part of the chin and its immediately adjacent jagged skin-color transition. In Image 1's 800px coordinates, this is approximately x510\u2013665, y445\u2013575. Replace that blue-gray blotch with healthy continuous warm skin matching the surrounding jaw/neck, soft natural skin texture and subtle diffuse color variation. Remove the polygon-shaped color steps inside this small patch. Image 2 is the same character's clean face-paint color reference only; do not adopt its camera angle, framing or face geometry. Preserve every other pixel as closely as possible, particularly nose, mouth, eyes and the ear. Do not beautify, reshape, relight or change expression. No directional shadow painted into the repaired area, no glossy highlights, no text, no border. Output one square image, same exact registered view as Image 1.",
+  "input_images": [
+    {
+      "relative_path": "renders/chin_source149/face_albedo_000_-35.png",
+      "sha256": "1918bf38dae4fce9700955ec6feb08c12df40107b6f665e23cce5d5ebd7b6f07"
+    },
+    {
+      "relative_path": "textures/peacock/face-paint-plate.png",
+      "sha256": "e89681e0a0f2e212f7945b888f673ddede37c4ac9c5bbc4b30c1dbdd5d4b5cb0"
+    }
+  ],
+  "output_relative_path": "textures/peacock/chin-paint-plate153.png",
+  "output_sha256": "209c2c8aae5eb28c2333b1ece93559255581bf45fa3c022b6e9bbe16af18f737",
+  "status": "Unregistered diffuse repair input. Generation changes some projected contours, so bounded registration and actual-geometry bake are mandatory; no geometry or character appearance clearance.",
+  "input_reference_scope": "The first input path is relative to the original Peacock recipe workspace and records provenance; this addendum does not include or certify a regenerated source view."
+}

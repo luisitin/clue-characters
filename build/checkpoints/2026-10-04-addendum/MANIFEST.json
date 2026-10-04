@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scope": "Only deferred Peacock chin153 unique input/provenance and the five White upstream generators with bounded documentation. Held models and all prior repository files stay unchanged.",
+  "files": [
+    {
+      "path": "build/checkpoints/2026-10-04-addendum/README.md",
+      "bytes": 1274,
+      "sha256": "87e6d54ddc69ba07cdb53fdcd70db6d7b41d3b43a70e11f91249d96c9972bcc2"
+    },
+    {
+      "path": "build/checkpoints/2026-10-04-addendum/WHITE_GENERATORS.json",
+      "bytes": 2464,
+      "sha256": "ae385e48af4ff95623953c8337e6e9e9c8645e282eb2b4b693a5998a5df35ddf"
+    },
+    {
+      "path": "build/checkpoints/2026-10-04-addendum/recipes/scarlett-white/scripts/diagnose_white_globe_fit07.py",
+      "bytes": 2164,
+      "sha256": "21264fa0c078d5b9aff1b27fe27a2683a447922977fd9c698496bd48cd1b0250"
+    },
+    {
+      "path": "build/checkpoints/2026-10-04-addendum/recipes/scarlett-white/scripts/measure_white_eye_depth_fields.py",
+      "bytes": 5728,
+      "sha256": "ecb13892fdab18e49c5601e44e60c2c5997902f368ea9191c0c342cf2fd58f3d"
+    },
+    {
+      "path": "build/checkpoints/2026-10-04-addendum/recipes/scarlett-white/scripts/measure_white_iris_paint05.py",
+      "bytes": 3831,
+      "sha256": "d64f3be0b9b64d33e7aef50b2ea89dc83d526ca9ae53f2b969198d6cf87892d9"
+    },
+    {
+      "path": "build/checkpoints/2026-10-04-addendum/recipes/scarlett-white/scripts/prepare_white_eye_domains02.py",
+      "bytes": 4016,
+      "sha256": "694ca967046fd091fc3d06eecb074fb4c815801145ea19f47f870cba0eef34b6"
+    },
+    {
+      "path": "build/checkpoints/2026-10-04-addendum/recipes/scarlett-white/scripts/resolve_white_eye_boundary05.py",
+      "bytes": 5281,
+      "sha256": "1c1f4bdb45a72245f197625fc3b4325d030a32aecf80c9a819155458869f57fe"
+    },
+    {
+      "path": "textures/peacock/chin-paint-plate153.png",
+      "bytes": 1511018,
+      "sha256": "209c2c8aae5eb28c2333b1ece93559255581bf45fa3c022b6e9bbe16af18f737"
+    },
+    {
+      "path": "textures/peacock/chin-paint-plate153.provenance.json",
+      "bytes": 2263,
+      "sha256": "30bb02734673e011ab2bbf7de2e9deb09d6175a35f77fb651e8070658ffd5bc2"
+    }
+  ],
+  "checks": [
+    "Exact source PNG and script hashes verified",
+    "Text privacy scan and Python syntax checks passed",
+    "Static upstream dependency review only; no fresh procedural replay"
+  ],
+  "related_checkpoint": "build/checkpoints/2026-10-04-recipes"
+}
