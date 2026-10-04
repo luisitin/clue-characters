@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "snapshot_utc": "2026-10-04T20:40:00Z",
+  "status": "Unfinished WIP lost-work preservation; existing published snapshots unchanged.",
+  "models": [
+    {
+      "name": "green-sleeve75-coherent-wip",
+      "source_recipe_path": "candidates/green/r01/Green_sleeve75_assembly.glb",
+      "restored_path": "models/green-sleeve75-coherent-wip.glb",
+      "bytes": 19522552,
+      "sha256": "cc8f26fdf5fefaf2cd999916a630d7c0c22aa44ed6640ed16a9ea6908dcbe8bc",
+      "status": "Coherent WIP. Sleeve UV/PBR remains diagnostic; old gripping hand/case/shoes and face/lid/full-character work remain. Eye60 is separate and not integrated.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/green-sleeve75-coherent-wip.glb.gz.part01",
+          "bytes": 13715195,
+          "sha256": "1074046f936fd28c3edc7f4e066e37133ec4def4bd5678ccdf2c05e932be808a"
+        }
+      ]
+    },
+    {
+      "name": "mustard-context151-coherent-wip",
+      "source_recipe_path": "candidates/mustard/v5_rebuild/inputs/pointing_context151.glb",
+      "restored_path": "models/mustard-context151-coherent-wip.glb",
+      "bytes": 31852200,
+      "sha256": "e586db63d103000622e8544ff17e0391775785298fee919c6a859e7108851d33",
+      "status": "Coherent WIP: body_cut_unit104 + painted pointing136 + cuff95. Narrow checks pass; sleeve stains, cuff paint, fused gripping hand/prop/coat, head and boots remain unfinished.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/mustard-context151-coherent-wip.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "fee68abead036d856963f743bb66b730e958fe4f842a45708a5c1aa6a2717bec"
+        },
+        {
+          "path": "models/mustard-context151-coherent-wip.glb.gz.part02",
+          "bytes": 6275396,
+          "sha256": "d731d9b4068f778cc181025bcd3693d3749b8d33ce85fd1b3e4266f75c0fbdde"
+        }
+      ]
+    },
+    {
+      "name": "peacock-face178-coherent-wip",
+      "source_recipe_path": "candidates/peacock/restart_v1/checks/peacock_face_nosepaint178.glb",
+      "restored_path": "models/peacock-face178-coherent-wip.glb",
+      "bytes": 28898812,
+      "sha256": "8934058dcb431f32066a60e3bd8b113028dca2cec32b460e55d404da0c945f66",
+      "status": "Coherent WIP. Bounded nose/chin paint and source-cleanup improvements reviewed in saved views; ears/neck, fringe/hat/feather, collar/body and whole-character gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/peacock-face178-coherent-wip.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "33ea43e30056c0de6d8f0f740eb38b1bcd94401e17860e6f4b3aa4687c9f67f5"
+        },
+        {
+          "path": "models/peacock-face178-coherent-wip.glb.gz.part02",
+          "bytes": 6918043,
+          "sha256": "dee326fc6ba0dd73619254d06127219f9a6d39756a0f377327f9cfe6a655cbf3"
+        }
+      ]
+    },
+    {
+      "name": "scarlett-overlap08-held-wip",
+      "source_recipe_path": "candidates/scarlett-white/models/scarlett_08_backface_overlap_trial.glb",
+      "restored_path": "models/scarlett-overlap08-held-wip.glb",
+      "bytes": 17029464,
+      "sha256": "e3a24231a9a7a9a20a5f9224d7b2186da850cf8f987a5893db1250d977d46e95",
+      "status": "One-face source-overlap WIP. An exposing macro removes black fill, but fine line and other source defects remain.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/scarlett-overlap08-held-wip.glb.gz.part01",
+          "bytes": 11786228,
+          "sha256": "4f32f2001e69ba966811a7a4e148420b47add7cc1b449b651ec7066f51b2be1b"
+        }
+      ]
+    },
+    {
+      "name": "scarlett-near-eye09-separate-trial",
+      "source_recipe_path": "candidates/scarlett-white/models/scarlett_09_near_eye_geometry_trial.glb",
+      "restored_path": "models/scarlett-near-eye09-separate-trial.glb",
+      "bytes": 19431224,
+      "sha256": "1d2d65a14ea12044fec3e56c1908666569b0679cfa453f3dd70777d901e72e84",
+      "status": "Newer near-eye trial, separate from held08. Near-eye V4 checks clean; independent appearance review pending and temporary800px eye/skin inputs remain.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/scarlett-near-eye09-separate-trial.glb.gz.part01",
+          "bytes": 13404786,
+          "sha256": "6f41379db1d366126ae7c0d2c6e60fb9653eb487368c4c32b92ca20b49ad26e2"
+        }
+      ]
+    },
+    {
+      "name": "white-neck25-held-material-wip",
+      "source_recipe_path": "candidates/scarlett-white/models/white_25_continuous_neck_paint_trial.glb",
+      "restored_path": "models/white-neck25-held-material-wip.glb",
+      "bytes": 26713456,
+      "sha256": "c8c56d927bee360d883af4e3b5e58c556a077e8485eaaa39b1f84a41a6d20751",
+      "status": "Bounded material trial on held White22 geometry. Neck/ear/collar/body/hands remain unfinished.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/white-neck25-held-material-wip.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "d49bc5cf25c60f693e841715f2b5aa8a6c549188b26774a2cc339cc3ebad07d3"
+        },
+        {
+          "path": "models/white-neck25-held-material-wip.glb.gz.part02",
+          "bytes": 1475455,
+          "sha256": "a16911cce962cd7ab864487e037b0835d47b6375b7564a969a21a81516c54596"
+        }
+      ]
+    },
+    {
+      "name": "plum-strip085-held-coherent-wip",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/plum_strip_cleanup085.glb",
+      "restored_path": "models/plum-strip085-held-coherent-wip.glb",
+      "bytes": 4991304,
+      "sha256": "4302703db98272a49678d483d060e6c5af23bb8153669027c0b6e6940328ec47",
+      "status": "Held coherent source-cleanup WIP; anatomical replacement studies remain separate and unjoined.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-strip085-held-coherent-wip.glb.gz.part01",
+          "bytes": 3372689,
+          "sha256": "35afbe95f1b795b1a0cf82b23578bb0077581e380b8004a85877df1cac5c8c87"
+        }
+      ]
+    },
+    {
+      "name": "plum-branch121-separate-trial",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/plum_branch_cleanup121.glb",
+      "restored_path": "models/plum-branch121-separate-trial.glb",
+      "bytes": 6000908,
+      "sha256": "4c6929ac1ee2b3bfef2875c1aef18840e6466ecb90cff57e4bacb427145a9867",
+      "status": "Separate index-only study:89 faces from24 fully backed/parity-checked small branches removed. Rear review removes two triangle tips; other affected regions remain unreviewed.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-branch121-separate-trial.glb.gz.part01",
+          "bytes": 3772785,
+          "sha256": "0669ec8bb3c012d069b1a1e0daaa99d207413ee6c2ac18c18821201e57675daf"
+        }
+      ]
+    },
+    {
+      "name": "white-hand-seed10-unintegrated",
+      "source_recipe_path": "candidates/white-hands/models/fist_seed10.glb",
+      "restored_path": "models/white-hand-seed10-unintegrated.glb",
+      "bytes": 835172,
+      "sha256": "a0acd3324e1dd7654f3e1a611050fc52c52044f4e45887ea13f53ea06d7b9ce1",
+      "status": "Unintegrated open curled grasp, not the required closed waist fist. Complete right-hand V4 clean; left-hand audit not run. Diagnostic unpainted material, no source cuts.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/white-hand-seed10-unintegrated.glb.gz.part01",
+          "bytes": 662641,
+          "sha256": "e7823078a4efbf8b2e4a40d01944e5bff4d1f2197805ece57c3f2057356a997f"
+        }
+      ]
+    },
+    {
+      "name": "white-cuff11-unintegrated",
+      "source_recipe_path": "candidates/white-hands/models/cuff11.glb",
+      "restored_path": "models/white-cuff11-unintegrated.glb",
+      "bytes": 141708,
+      "sha256": "1fffa6b7989580591cee8060c19081361bf68cec75cae1aaf035a3b19df33e30",
+      "status": "Standalone cuff shell/button seed. Unrendered and unaudited for geometry, UVs and contact; not integrated.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/white-cuff11-unintegrated.glb.gz.part01",
+          "bytes": 71480,
+          "sha256": "7306692e7e0f29a65d8021584f8daeafb20d8c462f77a8b172f52fea323842e8"
+        }
+      ]
+    },
+    {
+      "name": "plum-plum_cuff_sheet122-unjoined-trial",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/plum_cuff_sheet122.glb",
+      "restored_path": "models/plum-plum_cuff_sheet122-unjoined-trial.glb",
+      "bytes": 6001952,
+      "sha256": "d07d1a0434c02676244d4a2b7628469beb3b44950f7d2a5c12101d112493016d",
+      "status": "Separate unjoined Plum WIP component/study. Not the held coherent character; extended recipe has not had a fresh replay and appearance/integration gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-plum_cuff_sheet122-unjoined-trial.glb.gz.part01",
+          "bytes": 3773218,
+          "sha256": "b1015993b3e3a2d1d8c6cd34e6ec92aad81b419e341f0741cf1e6020325a76ca"
+        }
+      ]
+    },
+    {
+      "name": "plum-source_body144-unjoined-trial",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/source_body144.glb",
+      "restored_path": "models/plum-source_body144-unjoined-trial.glb",
+      "bytes": 8118532,
+      "sha256": "3456f21fb9fbd56a804cd1657c851cba0e920d29ff64cd8aedbfd921e6809984",
+      "status": "Separate unjoined Plum WIP component/study. Not the held coherent character; extended recipe has not had a fresh replay and appearance/integration gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-source_body144-unjoined-trial.glb.gz.part01",
+          "bytes": 5010699,
+          "sha256": "f6c1bf2688bcfd75d04118b6083427c275a27dc16e15679658f9275a79784f39"
+        }
+      ]
+    },
+    {
+      "name": "plum-head_orbits140-unjoined-trial",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/head_orbits140.glb",
+      "restored_path": "models/plum-head_orbits140-unjoined-trial.glb",
+      "bytes": 10256112,
+      "sha256": "c001828f313065dd729a3265d25b97e1b75b02615bf12a472ff5e76cc6c7bec7",
+      "status": "Separate unjoined Plum WIP component/study. Not the held coherent character; extended recipe has not had a fresh replay and appearance/integration gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-head_orbits140-unjoined-trial.glb.gz.part01",
+          "bytes": 7417531,
+          "sha256": "4acadbdd5c82de2ead1262a732c264119021f3496f2ca278392efbc778435262"
+        }
+      ]
+    },
+    {
+      "name": "plum-head_neck124-unjoined-trial",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/head_neck124.glb",
+      "restored_path": "models/plum-head_neck124-unjoined-trial.glb",
+      "bytes": 10256116,
+      "sha256": "bf356c80878104a2d944ef4236aaa82344fba143bb4fc9282ee2ef9e0ee2ed9d",
+      "status": "Separate unjoined Plum WIP component/study. Not the held coherent character; extended recipe has not had a fresh replay and appearance/integration gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-head_neck124-unjoined-trial.glb.gz.part01",
+          "bytes": 7418495,
+          "sha256": "e20755e4f49bb0ddd5d677435528121be66505888a6d22d89a05c41155ade35b"
+        }
+      ]
+    },
+    {
+      "name": "plum-neck_context127-unjoined-trial",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/neck_context127.glb",
+      "restored_path": "models/plum-neck_context127-unjoined-trial.glb",
+      "bytes": 4961120,
+      "sha256": "4620540a1efb63e466dacea75d0bf663f7d55bbe01d8835588eb2f9b3ae19b90",
+      "status": "Separate unjoined Plum WIP component/study. Not the held coherent character; extended recipe has not had a fresh replay and appearance/integration gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-neck_context127-unjoined-trial.glb.gz.part01",
+          "bytes": 3010069,
+          "sha256": "a23c890455a54ab29eaca449574adf6425d1d6f3548f86f543bba4ebd2c3ec43"
+        }
+      ]
+    }
+  ],
+  "recipe_archives": [
+    {
+      "path": "recipes/recipe-increment-01.zip",
+      "bytes": 14417098,
+      "sha256": "05f13cfeea7ce593a999459fc4958dabcc87ee9fa0c237b361549acb1617e161",
+      "members": 172
+    }
+  ],
+  "recipe_member_count": 172,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2720,
+      "sha256": "4b3f75e2c4b081c6fb61ff58e920f6e8c265dca58549bb46339bd7cddf3f7708"
+    },
+    {
+      "path": "models/green-sleeve75-coherent-wip.glb.gz.part01",
+      "bytes": 13715195,
+      "sha256": "1074046f936fd28c3edc7f4e066e37133ec4def4bd5678ccdf2c05e932be808a"
+    },
+    {
+      "path": "models/mustard-context151-coherent-wip.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "fee68abead036d856963f743bb66b730e958fe4f842a45708a5c1aa6a2717bec"
+    },
+    {
+      "path": "models/mustard-context151-coherent-wip.glb.gz.part02",
+      "bytes": 6275396,
+      "sha256": "d731d9b4068f778cc181025bcd3693d3749b8d33ce85fd1b3e4266f75c0fbdde"
+    },
+    {
+      "path": "models/peacock-face178-coherent-wip.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "33ea43e30056c0de6d8f0f740eb38b1bcd94401e17860e6f4b3aa4687c9f67f5"
+    },
+    {
+      "path": "models/peacock-face178-coherent-wip.glb.gz.part02",
+      "bytes": 6918043,
+      "sha256": "dee326fc6ba0dd73619254d06127219f9a6d39756a0f377327f9cfe6a655cbf3"
+    },
+    {
+      "path": "models/plum-branch121-separate-trial.glb.gz.part01",
+      "bytes": 3772785,
+      "sha256": "0669ec8bb3c012d069b1a1e0daaa99d207413ee6c2ac18c18821201e57675daf"
+    },
+    {
+      "path": "models/plum-head_neck124-unjoined-trial.glb.gz.part01",
+      "bytes": 7418495,
+      "sha256": "e20755e4f49bb0ddd5d677435528121be66505888a6d22d89a05c41155ade35b"
+    },
+    {
+      "path": "models/plum-head_orbits140-unjoined-trial.glb.gz.part01",
+      "bytes": 7417531,
+      "sha256": "4acadbdd5c82de2ead1262a732c264119021f3496f2ca278392efbc778435262"
+    },
+    {
+      "path": "models/plum-neck_context127-unjoined-trial.glb.gz.part01",
+      "bytes": 3010069,
+      "sha256": "a23c890455a54ab29eaca449574adf6425d1d6f3548f86f543bba4ebd2c3ec43"
+    },
+    {
+      "path": "models/plum-plum_cuff_sheet122-unjoined-trial.glb.gz.part01",
+      "bytes": 3773218,
+      "sha256": "b1015993b3e3a2d1d8c6cd34e6ec92aad81b419e341f0741cf1e6020325a76ca"
+    },
+    {
+      "path": "models/plum-source_body144-unjoined-trial.glb.gz.part01",
+      "bytes": 5010699,
+      "sha256": "f6c1bf2688bcfd75d04118b6083427c275a27dc16e15679658f9275a79784f39"
+    },
+    {
+      "path": "models/plum-strip085-held-coherent-wip.glb.gz.part01",
+      "bytes": 3372689,
+      "sha256": "35afbe95f1b795b1a0cf82b23578bb0077581e380b8004a85877df1cac5c8c87"
+    },
+    {
+      "path": "models/scarlett-near-eye09-separate-trial.glb.gz.part01",
+      "bytes": 13404786,
+      "sha256": "6f41379db1d366126ae7c0d2c6e60fb9653eb487368c4c32b92ca20b49ad26e2"
+    },
+    {
+      "path": "models/scarlett-overlap08-held-wip.glb.gz.part01",
+      "bytes": 11786228,
+      "sha256": "4f32f2001e69ba966811a7a4e148420b47add7cc1b449b651ec7066f51b2be1b"
+    },
+    {
+      "path": "models/white-cuff11-unintegrated.glb.gz.part01",
+      "bytes": 71480,
+      "sha256": "7306692e7e0f29a65d8021584f8daeafb20d8c462f77a8b172f52fea323842e8"
+    },
+    {
+      "path": "models/white-hand-seed10-unintegrated.glb.gz.part01",
+      "bytes": 662641,
+      "sha256": "e7823078a4efbf8b2e4a40d01944e5bff4d1f2197805ece57c3f2057356a997f"
+    },
+    {
+      "path": "models/white-neck25-held-material-wip.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "d49bc5cf25c60f693e841715f2b5aa8a6c549188b26774a2cc339cc3ebad07d3"
+    },
+    {
+      "path": "models/white-neck25-held-material-wip.glb.gz.part02",
+      "bytes": 1475455,
+      "sha256": "a16911cce962cd7ab864487e037b0835d47b6375b7564a969a21a81516c54596"
+    },
+    {
+      "path": "recipes/recipe-increment-01.zip",
+      "bytes": 14417098,
+      "sha256": "05f13cfeea7ce593a999459fc4958dabcc87ee9fa0c237b361549acb1617e161"
+    },
+    {
+      "path": "restore.py",
+      "bytes": 1557,
+      "sha256": "5a18bf6ac0e6df8748b55ffb2b3c3b8d0c685fe50cfd990a81de34d2acb95476"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 958,
+      "sha256": "2ae6711d4a4033e56760cf9a6c3f8ff393bc0e0d5d02637ff3691b46e4366b40"
+    }
+  ],
+  "validation_scope": "Exact GLB compression/decompression round trips, Python syntax, source/content hash checks and archive member integrity only. No new procedural replay or model-quality approval.",
+  "omissions": [
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/scarlett08/gltf_json_chunk.bin",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/scarlett08/gltf_bin_append.bin",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/scarlett08/manifest.json",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/scarlett09/gltf_json_chunk.bin",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/scarlett09/gltf_bin_append.bin",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/scarlett09/manifest.json",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/white25/gltf_json_chunk.bin",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/white25/gltf_bin_append.bin",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/white25/manifest.json",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    },
+    {
+      "path": "candidates/scarlett-white/public_checkpoint_20261004_2043/scripts/reconstruct_snapshot.py",
+      "reason": "Redundant byte-reconstruction payload; exact full GLB is independently stored in this checkpoint."
+    }
+  ]
+}
