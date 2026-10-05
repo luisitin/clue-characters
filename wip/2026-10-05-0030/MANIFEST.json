@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "snapshot_utc": "2026-10-05T00:30:00Z",
+  "status": "Unfinished six-character component/input preservation. Prior published files unchanged.",
+  "models": [
+    {
+      "name": "green-full173-fp32-coherent-wip",
+      "source_recipe_path": "candidates/green/r01/Green_full_context173_fp32.glb",
+      "restored_path": "models/green-full173-fp32-coherent-wip.glb",
+      "bytes": 27534808,
+      "sha256": "0d685946d7b26db1f1b407a0d63932e8d3b52fd35ca7e5f72dbeb414b443e62e",
+      "status": "Complete component assembly with both rebuilt hands/sleeves, case and physical eyes. Unapproved WIP: source face paint, expression/detail, garment UV/PBR, wrist paint, shoes and full likeness/all-angle gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/green-full173-fp32-coherent-wip-0030.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "679a8b3a8a4190f9c3e6414eda5424796abdf935a03a68d83bfde1d757ee35b9"
+        },
+        {
+          "path": "models/green-full173-fp32-coherent-wip-0030.glb.gz.part02",
+          "bytes": 4046124,
+          "sha256": "003de6387795fc8192aba169d7882cee851578a7cae7eaf42bbf1e38f86ab9bf"
+        }
+      ]
+    },
+    {
+      "name": "peacock-face-ear-neck295-wip",
+      "source_recipe_path": "candidates/peacock/restart_v1/checks/peacock_face_oppositepaint295.glb",
+      "restored_path": "models/peacock-face-ear-neck295-wip.glb",
+      "bytes": 37033256,
+      "sha256": "9fc811cac645d586493caf88d0b5f88182e2bd71a5e6dcc426e6cccc6c6e96c4",
+      "status": "WIP near stud/lower-ear paint and opposite neck paint checkpoint. Geometry and material constraints are scoped to the saved studies. Opposite native ear302 and later geometry are separate/excluded; whole head and character gates remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/peacock-face-ear-neck295-wip-0030.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "5fc976aa563d226b52e7c21ebd0ccb13e71c0fc589dcd7271d96e4494930df7c"
+        },
+        {
+          "path": "models/peacock-face-ear-neck295-wip-0030.glb.gz.part02",
+          "bytes": 13665356,
+          "sha256": "616a1eb1e6c1efc58a0deabedd583cef540954b8c09200160b43f66d2ee4811a"
+        }
+      ]
+    },
+    {
+      "name": "scarlett-face20-coherent-wip",
+      "source_recipe_path": "candidates/scarlett-white/models/scarlett_20_face_material_geometry_merge.glb",
+      "restored_path": "models/scarlett-face20-coherent-wip.glb",
+      "bytes": 27372536,
+      "sha256": "074dc1b86646b733aed304fe7889bdc4ea50bb8f649dc66293734f4707a85950",
+      "status": "Held coherent face WIP baseline. Combines16 optics and17 forehead cleanup. Source hair, hands, body and finish remain incomplete.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/scarlett-face20-coherent-wip-0030.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "d5134d826bcb02120929575d60fe0842c3f469aa43f980ed7ce723e32e95086c"
+        },
+        {
+          "path": "models/scarlett-face20-coherent-wip-0030.glb.gz.part02",
+          "bytes": 2690235,
+          "sha256": "53869ea7f00b8c3659c63439d3d2e833dbf98b2f01abd2779fc2e85b8ab181a6"
+        }
+      ]
+    },
+    {
+      "name": "scarlett-hair24-separate-branch",
+      "source_recipe_path": "candidates/scarlett-white/models/scarlett_24_hair_overlap_cleanup.glb",
+      "restored_path": "models/scarlett-hair24-separate-branch.glb",
+      "bytes": 27504580,
+      "sha256": "6855b194d234a614e43081161a2d68a882b88b5b05bdbd0e1b377466af512593",
+      "status": "Separate branch from20 removing5 supported hair-face overlaps. Two large triangular marks reduced; a small residual slash and source hair material/shape defects remain. Does not include23/25.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/scarlett-hair24-separate-branch-0030.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "48de658b8d11174b755a2b7aa0519a21a730bfff54d7ea8b4fe889865caa0e1a"
+        },
+        {
+          "path": "models/scarlett-hair24-separate-branch-0030.glb.gz.part02",
+          "bytes": 2743234,
+          "sha256": "2b4ccd840bc6cd74a7c89d3e06f09aaec3ed12e9ac4f1a619023cdf3c26c69f3"
+        }
+      ]
+    },
+    {
+      "name": "scarlett-far-skin25-separate-branch",
+      "source_recipe_path": "candidates/scarlett-white/models/scarlett_25_far_skin_material_trial.glb",
+      "restored_path": "models/scarlett-far-skin25-separate-branch.glb",
+      "bytes": 28982292,
+      "sha256": "472eab8abe7a1f62c8cfd3f61319ef31059df35a66c181e4d92b660c51951b7c",
+      "status": "Branch20 to23 local orbital tangent fairing to25 neutral far-skin atlas. Actual front/exposing PBR/unlit exist. Retained outer brown band and source fragments remain. Does not include24.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/scarlett-far-skin25-separate-branch-0030.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "89d88fabf4e9baddccf30d71b180671bfd630d524286ef3b773515e212a0a2e7"
+        },
+        {
+          "path": "models/scarlett-far-skin25-separate-branch-0030.glb.gz.part02",
+          "bytes": 4271784,
+          "sha256": "69dc12b8148489e09fd5a4df18efb2ac8192bc29da58c90327ea5215a269d3d8"
+        }
+      ]
+    },
+    {
+      "name": "white-shirt27-material-wip",
+      "source_recipe_path": "candidates/scarlett-white/models/white_27_shirt_paint_trial.glb",
+      "restored_path": "models/white-shirt27-material-wip.glb",
+      "bytes": 29061964,
+      "sha256": "c936ea7b586a01e914f60dee31fa52868dda63860de6400383b3247400f3799b",
+      "status": "Material-only successor to heldWhite25: removes two bounded shirt-paint islands. Source geometry and hands remain held, collar/neck/source defects remain.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/white-shirt27-material-wip-0030.glb.gz.part01",
+          "bytes": 18000000,
+          "sha256": "079a380e905b567784cc312b315945786242d912c89dd59614f4ba8e97a23171"
+        },
+        {
+          "path": "models/white-shirt27-material-wip-0030.glb.gz.part02",
+          "bytes": 2878748,
+          "sha256": "08770db3163b1dfc95c61bf189486501ad9b51ae3babd4dc54c2045a509db8c2"
+        }
+      ]
+    },
+    {
+      "name": "scarlett-hand111-unjoined",
+      "source_recipe_path": "candidates/scarlett-white/components/scarlett_right_hand111.glb",
+      "restored_path": "models/scarlett-hand111-unjoined.glb",
+      "bytes": 2242260,
+      "sha256": "7a3a53f86e8ece74fbdb1ea67a6aa80929b51d9a9332f40006b922154231079b",
+      "status": "Clean native forearm/hand fitting component,57,280triangles. V4 self-check passed; source attachment/removal and paint remain unfinished.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/scarlett-hand111-unjoined-0030.glb.gz.part01",
+          "bytes": 1723047,
+          "sha256": "04c2cfb2bdf68029000893837787bcb90c9c26604f3f3dcd8ef9e391656b5ca0"
+        }
+      ]
+    },
+    {
+      "name": "scarlett-hand130-nail-unjoined",
+      "source_recipe_path": "candidates/scarlett-white/components/scarlett_right_hand130_nail_relief_trial.glb",
+      "restored_path": "models/scarlett-hand130-nail-unjoined.glb",
+      "bytes": 3428752,
+      "sha256": "e31354e6acb6d5650b037798641eb712e967a7894474069e3ea7b2adeacaa064",
+      "status": "Integral short-nail successor to111 with temporary vertex pigment. Whole serialized V4 clean and dorsal/front/thumb/side actual views inspected. No source arm/head/hair integration.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/scarlett-hand130-nail-unjoined-0030.glb.gz.part01",
+          "bytes": 2350674,
+          "sha256": "bb7fcc04cd25f5437523e4bb1f6a2021cb552f27bc9f9dc146ebd7256af0aa19"
+        }
+      ]
+    },
+    {
+      "name": "plum-spectacles-joined193-separate-study",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/spectacles_joined193.glb",
+      "restored_path": "models/plum-spectacles-joined193-separate-study.glb",
+      "bytes": 372420,
+      "sha256": "1f48c9953c5e79ee198b24a0fd0fe905cebe0e6132830a713e9df73bc9c55aa8",
+      "status": "Unfilleted continuous metal spectacles; actual front/profile inspected, exact self audit clean. Optical materials/lenses/contact detail open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-spectacles-joined193-separate-study-0030.glb.gz.part01",
+          "bytes": 294773,
+          "sha256": "13ae2756e05b40189f1a07361e9f231e2405766405b58379c41cdd91e0e118eb"
+        }
+      ]
+    },
+    {
+      "name": "plum-source-cuff-cleanup198-separate-study",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/source_cuff_cleanup198.glb",
+      "restored_path": "models/plum-source-cuff-cleanup198-separate-study.glb",
+      "bytes": 11486448,
+      "sha256": "0aba7b35e06d25c879e26fbf290b090a70686325f93859e190b8a4ee2ba99946",
+      "status": "Open construction body. Two full backed sleeve branches removed; matched front/side clear those marks. Coherent source still085.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-source-cuff-cleanup198-separate-study-0030.glb.gz.part01",
+          "bytes": 6830567,
+          "sha256": "d8f6850a808caa4a976c74dbe0fe8533be52184f54210132d20afe76d715ace5"
+        }
+      ]
+    },
+    {
+      "name": "plum-hand-wrist201-separate-study",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/hand_wrist201.glb",
+      "restored_path": "models/plum-hand-wrist201-separate-study.glb",
+      "bytes": 4121912,
+      "sha256": "e7027d2ccc9e8f5a41fef93d54af11e3a2fdda4c5538d0a7dae4fe6db9c69a2e",
+      "status": "Closed18mm wrist continuation; held distal anatomy and UV/tangents exact. Clean self/cloth contact audit and172-edge seam. Joined appearance/material pending.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-hand-wrist201-separate-study-0030.glb.gz.part01",
+          "bytes": 2937300,
+          "sha256": "35e9056ae2790a753a8b04e7a257b8af6748b0ba09458df01abec4ecefbd0fd2"
+        }
+      ]
+    },
+    {
+      "name": "plum-layered-cuff222-separate-study",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/layered_cuff222.glb",
+      "restored_path": "models/plum-layered-cuff222-separate-study.glb",
+      "bytes": 1046504,
+      "sha256": "ed9adc864f57586e36e8b17293017bd541291b3a03f5d2563f6ff1dfd10e405a",
+      "status": "Separate wool/lining/knit study. Corrects rejected206 local folds; dense sampled skin clearance positive. Selected exact audit and actual views pending.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-layered-cuff222-separate-study-0030.glb.gz.part01",
+          "bytes": 592082,
+          "sha256": "1b4dba142e93417cef57a0ab681bc80b95d83631e3593b071f82e0cc7be97a5f"
+        }
+      ]
+    },
+    {
+      "name": "plum-head-mouth186-separate-study",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/head_mouth186.glb",
+      "restored_path": "models/plum-head-mouth186-separate-study.glb",
+      "bytes": 12769100,
+      "sha256": "d64d7277c702c2ee0c677811ad82d37e904f17d2de90512fe3ffc7c71d104f3c",
+      "status": "Separate official mouth-width0.55 trial on orbital140, provisional vertex colors. Head/eyes/hand contact audit clean; final likeness/paint open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-head-mouth186-separate-study-0030.glb.gz.part01",
+          "bytes": 8794985,
+          "sha256": "b7bf574f6ddddfcb62be544b0772467e372fc5ea19c857e6b89e6172a667cd79"
+        }
+      ]
+    },
+    {
+      "name": "plum-neck-context228-separate-study",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/neck_context228.glb",
+      "restored_path": "models/plum-neck-context228-separate-study.glb",
+      "bytes": 5735308,
+      "sha256": "f02935ef8c4d46fb40f5b8155f13053f58581940ebc79c31e14f6d1eebedf5d5",
+      "status": "Separate broad-mode neck transition study with three carried source branch fixes. Diagnostic open old hand stump; actual rear review and exact new neck audit pending.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-neck-context228-separate-study-0030.glb.gz.part01",
+          "bytes": 3317260,
+          "sha256": "690e910bcddbd7f05add4e0bd0831fdbfc6d48707d50701bd1b73781f1c0dae3"
+        }
+      ]
+    },
+    {
+      "name": "plum-source-cuff-cleanup243-separate-study",
+      "source_recipe_path": "candidates/plum/v1_rebuild/components/source_cuff_cleanup243.glb",
+      "restored_path": "models/plum-source-cuff-cleanup243-separate-study.glb",
+      "bytes": 12379232,
+      "sha256": "218ffcece96062ef3d4e00c211e6b6add3ab5c4a772b2b3fd8b80f9285e07e16",
+      "status": "Immutable open-body study; bounded 16-face backed branch removal clears one opposite-under notch in matched244.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/plum-source-cuff-cleanup243-separate-study-0030.glb.gz.part01",
+          "bytes": 7179781,
+          "sha256": "91b82c478935a9259a32427c652b86b0f9ef3680dedf9995970fe6d3188f53b6"
+        }
+      ]
+    },
+    {
+      "name": "mustard-cuff235-incomplete",
+      "source_recipe_path": "candidates/mustard/v5_rebuild/inputs/grip_cuff235.glb",
+      "restored_path": "models/mustard-cuff235-incomplete.glb",
+      "bytes": 11867496,
+      "sha256": "7e4f152df6c14e75c0c4aaefc42ae46d6f86bbede75313c3f67ae232e05637c6",
+      "status": "Incomplete component. Held227 geometry passed cuff/body/hand/prop crossings and dense0.5108mm skin clearance.235 adds unique2K cloth maps and explicit native tangents with exact geometry/corner normals. Source sleeve paint transition and final whole-character context remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/mustard-cuff235-incomplete-0030.glb.gz.part01",
+          "bytes": 11215620,
+          "sha256": "2dd56f2a3ccb1f3936630e69ae275f234706525e935a3678c67639cfaae759a9"
+        }
+      ]
+    },
+    {
+      "name": "mustard-body242-open-incomplete",
+      "source_recipe_path": "candidates/mustard/v5_rebuild/inputs/body_backing242.glb",
+      "restored_path": "models/mustard-body242-open-incomplete.glb",
+      "bytes": 20528236,
+      "sha256": "99d66441324d98aa6a121be69b867412c4f2b52060b51ff0b9e26d3d7866bb89",
+      "status": "Incomplete body reconstruction with an obvious large chest opening. Exact102 original coat faces restored after independent accidental sleeve-cut proof;243 retest found no restored-face crossings/copies/large folds. Coat source branches, lapel layering, hand/cuff assembly, full paint, head, boots and full-character review remain open.",
+      "storage": "concatenate numbered parts, then gunzip",
+      "parts": [
+        {
+          "path": "models/mustard-body242-open-incomplete-0030.glb.gz.part01",
+          "bytes": 11334127,
+          "sha256": "88edbc20a6e3264a3f82344b6d15d59fe3c5604ebac4894529ed265f0283e841"
+        }
+      ]
+    }
+  ],
+  "recipe_archives": [
+    {
+      "path": "recipes/recipe-increment0030-01.zip",
+      "bytes": 17254709,
+      "sha256": "0b4ad5347138b89d9cd9e172ec44055d93d156d1b7de7028b18ea7f0e10eb387",
+      "members": 7
+    },
+    {
+      "path": "recipes/recipe-increment0030-02.zip",
+      "bytes": 17770832,
+      "sha256": "02412cf5f4adc7f5556a246c753228c846e4636dbce35053e70b01d61061a69c",
+      "members": 20
+    },
+    {
+      "path": "recipes/recipe-increment0030-03.zip",
+      "bytes": 10456050,
+      "sha256": "80b885b36e8f56be4c385a4f95d417729498196faecf1a9565834d056609560d",
+      "members": 320
+    }
+  ],
+  "recipe_member_count": 347,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3846,
+      "sha256": "793affb6ce57be52784fb99eed7ef674bac7cb17e470953942539f5a1ddd0a98"
+    },
+    {
+      "path": "models/green-full173-fp32-coherent-wip-0030.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "679a8b3a8a4190f9c3e6414eda5424796abdf935a03a68d83bfde1d757ee35b9"
+    },
+    {
+      "path": "models/green-full173-fp32-coherent-wip-0030.glb.gz.part02",
+      "bytes": 4046124,
+      "sha256": "003de6387795fc8192aba169d7882cee851578a7cae7eaf42bbf1e38f86ab9bf"
+    },
+    {
+      "path": "models/mustard-body242-open-incomplete-0030.glb.gz.part01",
+      "bytes": 11334127,
+      "sha256": "88edbc20a6e3264a3f82344b6d15d59fe3c5604ebac4894529ed265f0283e841"
+    },
+    {
+      "path": "models/mustard-cuff235-incomplete-0030.glb.gz.part01",
+      "bytes": 11215620,
+      "sha256": "2dd56f2a3ccb1f3936630e69ae275f234706525e935a3678c67639cfaae759a9"
+    },
+    {
+      "path": "models/peacock-face-ear-neck295-wip-0030.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "5fc976aa563d226b52e7c21ebd0ccb13e71c0fc589dcd7271d96e4494930df7c"
+    },
+    {
+      "path": "models/peacock-face-ear-neck295-wip-0030.glb.gz.part02",
+      "bytes": 13665356,
+      "sha256": "616a1eb1e6c1efc58a0deabedd583cef540954b8c09200160b43f66d2ee4811a"
+    },
+    {
+      "path": "models/plum-hand-wrist201-separate-study-0030.glb.gz.part01",
+      "bytes": 2937300,
+      "sha256": "35e9056ae2790a753a8b04e7a257b8af6748b0ba09458df01abec4ecefbd0fd2"
+    },
+    {
+      "path": "models/plum-head-mouth186-separate-study-0030.glb.gz.part01",
+      "bytes": 8794985,
+      "sha256": "b7bf574f6ddddfcb62be544b0772467e372fc5ea19c857e6b89e6172a667cd79"
+    },
+    {
+      "path": "models/plum-layered-cuff222-separate-study-0030.glb.gz.part01",
+      "bytes": 592082,
+      "sha256": "1b4dba142e93417cef57a0ab681bc80b95d83631e3593b071f82e0cc7be97a5f"
+    },
+    {
+      "path": "models/plum-neck-context228-separate-study-0030.glb.gz.part01",
+      "bytes": 3317260,
+      "sha256": "690e910bcddbd7f05add4e0bd0831fdbfc6d48707d50701bd1b73781f1c0dae3"
+    },
+    {
+      "path": "models/plum-source-cuff-cleanup198-separate-study-0030.glb.gz.part01",
+      "bytes": 6830567,
+      "sha256": "d8f6850a808caa4a976c74dbe0fe8533be52184f54210132d20afe76d715ace5"
+    },
+    {
+      "path": "models/plum-source-cuff-cleanup243-separate-study-0030.glb.gz.part01",
+      "bytes": 7179781,
+      "sha256": "91b82c478935a9259a32427c652b86b0f9ef3680dedf9995970fe6d3188f53b6"
+    },
+    {
+      "path": "models/plum-spectacles-joined193-separate-study-0030.glb.gz.part01",
+      "bytes": 294773,
+      "sha256": "13ae2756e05b40189f1a07361e9f231e2405766405b58379c41cdd91e0e118eb"
+    },
+    {
+      "path": "models/scarlett-face20-coherent-wip-0030.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "d5134d826bcb02120929575d60fe0842c3f469aa43f980ed7ce723e32e95086c"
+    },
+    {
+      "path": "models/scarlett-face20-coherent-wip-0030.glb.gz.part02",
+      "bytes": 2690235,
+      "sha256": "53869ea7f00b8c3659c63439d3d2e833dbf98b2f01abd2779fc2e85b8ab181a6"
+    },
+    {
+      "path": "models/scarlett-far-skin25-separate-branch-0030.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "89d88fabf4e9baddccf30d71b180671bfd630d524286ef3b773515e212a0a2e7"
+    },
+    {
+      "path": "models/scarlett-far-skin25-separate-branch-0030.glb.gz.part02",
+      "bytes": 4271784,
+      "sha256": "69dc12b8148489e09fd5a4df18efb2ac8192bc29da58c90327ea5215a269d3d8"
+    },
+    {
+      "path": "models/scarlett-hair24-separate-branch-0030.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "48de658b8d11174b755a2b7aa0519a21a730bfff54d7ea8b4fe889865caa0e1a"
+    },
+    {
+      "path": "models/scarlett-hair24-separate-branch-0030.glb.gz.part02",
+      "bytes": 2743234,
+      "sha256": "2b4ccd840bc6cd74a7c89d3e06f09aaec3ed12e9ac4f1a619023cdf3c26c69f3"
+    },
+    {
+      "path": "models/scarlett-hand111-unjoined-0030.glb.gz.part01",
+      "bytes": 1723047,
+      "sha256": "04c2cfb2bdf68029000893837787bcb90c9c26604f3f3dcd8ef9e391656b5ca0"
+    },
+    {
+      "path": "models/scarlett-hand130-nail-unjoined-0030.glb.gz.part01",
+      "bytes": 2350674,
+      "sha256": "bb7fcc04cd25f5437523e4bb1f6a2021cb552f27bc9f9dc146ebd7256af0aa19"
+    },
+    {
+      "path": "models/white-shirt27-material-wip-0030.glb.gz.part01",
+      "bytes": 18000000,
+      "sha256": "079a380e905b567784cc312b315945786242d912c89dd59614f4ba8e97a23171"
+    },
+    {
+      "path": "models/white-shirt27-material-wip-0030.glb.gz.part02",
+      "bytes": 2878748,
+      "sha256": "08770db3163b1dfc95c61bf189486501ad9b51ae3babd4dc54c2045a509db8c2"
+    },
+    {
+      "path": "recipes/recipe-increment0030-01.zip",
+      "bytes": 17254709,
+      "sha256": "0b4ad5347138b89d9cd9e172ec44055d93d156d1b7de7028b18ea7f0e10eb387"
+    },
+    {
+      "path": "recipes/recipe-increment0030-02.zip",
+      "bytes": 17770832,
+      "sha256": "02412cf5f4adc7f5556a246c753228c846e4636dbce35053e70b01d61061a69c"
+    },
+    {
+      "path": "recipes/recipe-increment0030-03.zip",
+      "bytes": 10456050,
+      "sha256": "80b885b36e8f56be4c385a4f95d417729498196faecf1a9565834d056609560d"
+    },
+    {
+      "path": "restore.py",
+      "bytes": 1557,
+      "sha256": "5a18bf6ac0e6df8748b55ffb2b3c3b8d0c685fe50cfd990a81de34d2acb95476"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 958,
+      "sha256": "2ae6711d4a4033e56760cf9a6c3f8ff393bc0e0d5d02637ff3691b46e4366b40"
+    }
+  ],
+  "validation_scope": "Exact GLB compression/decompression round trips, source hashes, Python syntax, privacy-marker checks and archive member integrity. No procedural replay or model-quality approval.",
+  "omissions": [
+    "White hand27 already preserved; new rejected34/35/37/43/46 GLBs, large diagnostic views, all logs and internal coordination notes excluded. Collar49 is topology only and has no new GLB."
+  ]
+}
